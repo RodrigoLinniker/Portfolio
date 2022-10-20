@@ -28,9 +28,9 @@ export function ProjectItem({
             >
               {texto}
             </h1>
-            <div className=" mt-[15px] flex flex-row justify-center gap-2">
-              <AiOutlineGlobal size={24} color={"#0571AD"} />{" "}
-              <a href={linkSite}>
+            <div className=" mt-[15px] flex justify-center max-md:hidden">
+              <a href={linkSite} className="flex flex-row gap-2">
+                <AiOutlineGlobal size={24} color={"#0571AD"} />{" "}
                 <h1 className="text-blue-200 font-normal">{visitSite}</h1>
               </a>
             </div>

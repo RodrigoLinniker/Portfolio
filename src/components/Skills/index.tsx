@@ -19,8 +19,8 @@ export function Skills() {
       </div>
       <div className="flex md:flex-row justify-between mt-[30px] flex-col-reverse max-md:items-center">
         <div>
-          <h1 className="text-gray-100 dark:text-white text-lg text-start max-md:text-center">
-            Tenho experiência nas seguintes tecnologias web
+          <h1 className="text-gray-100 dark:text-white text-lg text-start max-md:text-center ">
+            Tenho experiência profissional nas seguintes tecnologias web
           </h1>
           <div className="mt-10 grid grid-cols-4 max-md:grid-cols-3">
             <SkillsOptions text="Html 5">

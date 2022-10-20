@@ -12,8 +12,9 @@ export function Sobre() {
           Olá! Eu sou Rodrigo Linniker
         </h1>
         <h1 className="font-normal text-lg mt-[30px] text-justify max-md:text-center">
-          Desenvolvedor de sofware, formado em Ciência da Computação. Aqui você
-          conhecerá minha jornada como desenvolvedor de web.
+          &nbsp;&nbsp;&nbsp;Desenvolvedor de sofware, formado em Ciência da
+          Computação. Aqui você conhecerá minha jornada como desenvolvedor de
+          web.
         </h1>
 
         <Link

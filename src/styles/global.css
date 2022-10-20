@@ -5,3 +5,7 @@
 body {
   @apply dark:bg-gray-900 bg-white dark:text-white text-black;
 }
+
+.swiper-button-disabled {
+  @apply opacity-40 cursor-not-allowed;
+}
