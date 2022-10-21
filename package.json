@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@hookform/resolvers": "^2.9.8",
+    "aos": "^2.3.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-hook-form": "^7.36.0",
@@ -22,6 +23,7 @@
     "yup": "^0.32.11"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.4",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@types/react-scroll": "^1.8.4",

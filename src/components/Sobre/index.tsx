@@ -30,7 +30,9 @@ export function Sobre() {
         </Link>
       </div>
       <div className="w-full max-w-[257px] md:max-w-[350px] lg:max-w-[441px] h-full">
-        <MolduraFoto />
+        <div data-aos="fade-right" data-aos-duration="1000">
+          <MolduraFoto />
+        </div>
       </div>
     </div>
   );

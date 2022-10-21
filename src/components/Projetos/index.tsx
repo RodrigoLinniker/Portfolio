@@ -40,7 +40,7 @@ export function Projetos() {
     {
       id: 3,
       texto:
-        "Concurso de redação de escolas públicas e penintenciárias utilizando React, Html5, Laravel, Typescript, Mysql, tailwind, Material UI.",
+        "Concurso de redação de escolas públicas e penintenciárias utilizando React, Html5, Laravel, Typescript, Mysql, Tailwind, Material UI.",
       image: `${ConcursoProject}`,
       visitSite: "Visite o site",
       linkSite: "https://concursoderedacao.dpu.def.br/",
@@ -61,7 +61,11 @@ export function Projetos() {
       className="flex w-full md:bg-blue-150/5 h-[662px] mt-[87px] p-1 max-md:mt-[240px]"
       id="projects"
     >
-      <div className="w-full max-w-[1240px] h-[546px] m-auto flex flex-col">
+      <div
+        className="w-full max-w-[1240px] h-[546px] m-auto flex flex-col"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <div className="flex flex-row gap-2 items-center justify-center">
           <BsGear className="text-red" />
           <h1 className="text-red text-center text-xl font-medium">Projetos</h1>
@@ -69,7 +73,7 @@ export function Projetos() {
         <h1 className="text-gray-100 dark:text-white text-center text-lg mt-[30px]">
           Alguns dos projetos que fiz / participei:
         </h1>
-        <div className="w-full flex max-sm:max-w-sm max-lg:max-w-md max-xl:max-w-[900px] mx-auto items-center justify-center mt-[30px]">
+        <div className="w-full flex max-sm:max-w-sm sm:max-w-sm md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] mx-auto items-center justify-center mt-[30px]">
           <div className="button-1-prev cursor-pointer">
             <BsChevronLeft size={40} className="text-gradient1" />
           </div>
@@ -88,7 +92,7 @@ export function Projetos() {
                 slidesPerView: 3,
                 slidesPerGroup: 3,
               },
-              970: {
+              1024: {
                 slidesPerView: 2,
                 slidesPerGroup: 2,
               },
