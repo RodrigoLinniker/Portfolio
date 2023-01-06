@@ -7,6 +7,8 @@ import { Pagination, Navigation } from "swiper";
 import { useState } from "react";
 import { BsChevronLeft, BsChevronRight, BsGear } from "react-icons/bs";
 import NlwProject from "../../assets/nlw9-project.png";
+import TodoList from "../../assets/todo-list.png";
+import Waiterapp from "../../assets/waiterapp.png";
 import MoviesProject from "../../assets/movies-project.png";
 import ConcursoProject from "../../assets/concurso-project.png";
 import Tcc from "../../assets/tcc.png";
@@ -40,13 +42,29 @@ export function Projetos() {
     {
       id: 3,
       texto:
+        "Projeto fullstack chamado WaiterApp para o garçom gerenciar os pedidos utilizando React, React Native, Nodejs e Styled Components.",
+      image: `${Waiterapp}`,
+      visitSite: "Visite o código",
+      linkSite: "https://github.com/RodrigoLinniker/waiterapp-fullstack",
+    },
+    {
+      id: 4,
+      texto:
+        "Projeto Todo List para criação de tarefas diárias utilizando React, NextJS, Prisma Html5, Typescript, Tailwind.",
+      image: `${TodoList}`,
+      visitSite: "Visite o código",
+      linkSite: "https://github.com/RodrigoLinniker/todolist-nextjs-prisma",
+    },
+    {
+      id: 5,
+      texto:
         "Concurso de redação de escolas públicas e penintenciárias utilizando React, Html5, Laravel, Typescript, Mysql, Tailwind, Material UI.",
       image: `${ConcursoProject}`,
       visitSite: "Visite o site",
       linkSite: "https://concursoderedacao.dpu.def.br/",
     },
     {
-      id: 4,
+      id: 6,
       texto:
         "Projeto para controle de produtos de Microempreendedores Designer utilizando React, Html5, Node, Typescript, Mysql, CSS3,Material UI.",
       image: `${Tcc}`,
